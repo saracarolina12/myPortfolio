@@ -2,12 +2,11 @@ import React, {useState} from 'react'
 import logo from '../images/SaraLogo.png'
 import { Link } from 'react-scroll'
 import Button from '@mui/material/Button';
-import { pink } from '@mui/material/colors';
-
+import { purple } from '@mui/material/colors';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 function Navbar() {
     const [nav, setnav] = useState(false);
-    const pinkColor = pink[400];
     const changeBackground = () =>{
         if(window.scrollY >= 50){
             setnav(true);
@@ -16,6 +15,17 @@ function Navbar() {
         }
     }
     window.addEventListener('scroll', changeBackground)
+    
+    const theme = createTheme({
+        palette: {
+        primary: {
+            main: '#cf3b91',
+        },
+        secondary: {
+            main: '#f44336',
+        },
+        },
+    });
 
     return (
         <nav className={nav? "nav active":"nav"}>
@@ -30,8 +40,10 @@ function Navbar() {
                 <li><Link to='#'>about()</Link></li>
                 <li><Link to='#'>work()</Link></li>
                 <li><Link to='#'>projects()</Link></li>
-                <li><Link to='#'></Link>contact()</li>
-                <Button className='buttonResume' color="secondary" variant="outlined">Resume</Button>
+                <li><Link to='#'>contact()</Link></li>
+                <ThemeProvider theme={theme}>
+                    <Button  className='buttonR2esume' color='primary'  variant="outlined">Resume</Button>
+                </ThemeProvider>
             </ul>
         </nav>
     )
