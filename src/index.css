@@ -2,13 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap'); /*Hi my name is...*/
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap'); /*Sara Gómez*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*Web Developer...*/
-
-
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+body::-webkit-scrollbar-track {
+background: #200010;        
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #ad3079;    
+    border-radius: 20px;      
+    border: 3px solid #200010; 
+}
 body{
     margin:0px;
     padding: 0px;
     background-color: #200010;
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 *{
     box-sizing: border-box;
@@ -114,7 +124,7 @@ nav .menu-btn,
     /* background-color: chocolate; */
     text-align: left;
 	position: absolute;
-    left: 25%;
+    left: 22%;
 	top: 55%;
 	transform: translate(-50%,-55%);
 }

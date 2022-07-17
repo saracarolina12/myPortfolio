@@ -42,7 +42,9 @@ function Navbar() {
                 <li><Link to='#'>projects()</Link></li>
                 <li><Link to='#'>contact()</Link></li>
                 <ThemeProvider theme={theme}>
-                    <Button  style={{ borderRadius: 20 }}  className='buttonR2esume' color='primary'  variant="outlined">Resume</Button>
+                    <a href="https://drive.google.com/file/d/1Ft5ETm626Eyxd4hLTG5qP2K32CVKr-TA/view?usp=sharing" target="_blank">
+                        <Button  style={{ borderRadius: 20 }}  className='buttonR2esume' color='primary'  variant="outlined">Resume</Button>
+                    </a>
                 </ThemeProvider>
             </ul>
         </nav>
