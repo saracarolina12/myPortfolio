@@ -9,9 +9,10 @@ body::-webkit-scrollbar-track {
 background: #200010;        
 }
 body::-webkit-scrollbar-thumb {
-    background-color: #ad3079;    
+    background-color: #200010;    
     border-radius: 20px;      
     border: 3px solid #200010; 
+    border: 2px solid #ad3079;  /* creates padding around scroll thumb */
 }
 body{
     margin:0px;
