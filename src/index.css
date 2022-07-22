@@ -45,10 +45,6 @@ input{
     width: 80%;
     border-radius: 20%;
     position:relative;
-    /* top: 50%;
-    left: 50%; */
-    /* margin-top: -50px;
-    margin-left: -50px; */
 } 
 .row{
     display: flex;
@@ -72,7 +68,6 @@ input{
     flex: 50%;
 }
 #main{
-
     /* background-color: rgb(3, 114, 97); */
     margin: 0 auto;
     padding: 0 20px;
@@ -160,13 +155,13 @@ nav .menu-btn,
 }
 .name{
     height: 40%;
-    /* width: 25%; */
-    background-color: chocolate;
+    /* background-color: chocolate; */
     text-align: left;
 	position: relative;
-    /* left: 20%;
-	top: 55%; */
-	/* transform: translate(-50%,-55%); */
+
+    left: 5%;
+    justify-content: center;
+    min-height: 80vh;
 }
 .hi{
     font-family: 'Roboto Mono', monospace;
