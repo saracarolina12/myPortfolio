@@ -4,6 +4,9 @@ function About() {
     return (
         <>
         <div id='main' className='row'>
+            <div className='myself column center'>
+                <img src={ require('../images/AboutMe.png') } />
+            </div>
             <div className='name column vertical-center'>
                 <p className='title-text'>about()</p>
                 <p className='background-text'>ABOUT</p>
@@ -14,11 +17,8 @@ function About() {
                     student at Universidad Panamericana
                     with a profesional objective based on
                     web application development and
-                    research.
+                    research 👩🏽‍💻
                 </p>
-            </div>
-            <div className='about-me column center'>
-                <img src={ require('../images/AboutMe.png') } />
             </div>
         </div>
     </>
