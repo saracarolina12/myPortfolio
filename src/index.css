@@ -56,7 +56,6 @@ input{
     position:relative;
 }
 .row{
-    display: flex;
     /* background-color: blue; */
     width: 100%;
     display: flex;
@@ -366,12 +365,41 @@ nav .menu-btn,
     text-align: justify;
     width: 50%;
 }
-.upper{
-    margin-top: -5%;
+.title-container{
+    /* background-color: green; */
+    text-align: center;
+    width: 50%;
+}
+.title-background{
+    color: #b551a126;
+    font-size: 4.0rem;
+    position: absolute;
+    z-index:100;
+    text-align: center;
+    /* background-color: rgba(255, 0, 0, 0.094); */
+    width: 50%;
+    letter-spacing: 20px;
+    font-family: 'Secular One', sans-serif;
+}
+.title-center-text{
+    font-family: 'Roboto Mono', monospace;
+    color: #AA3378;
+    font-size: 2.2rem;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.center-up{
+    vertical-align: text-top;
 }
 
 
 
+.upper{
+    margin-top: -5%;
+}
+.no-margin{
+    margin: 0;
+}
 .debug{
     background-color: rgb(116, 1, 1);
 }
