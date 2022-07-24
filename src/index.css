@@ -320,20 +320,21 @@ nav .menu-btn,
     font-family: 'Secular One', sans-serif;
 }
 /* work */
-.date-work{
-    font-family: 'Roboto Mono', monospace;
-    color: #FFDDF8;
-    font-size: 1.2rem;
-    margin:0;
-}
 .enterprises-images{
+    margin-top: 10%;
     width: 20%;
 }
 .enterprises{
     font-family: 'Roboto Mono', monospace;
     color: #C498F1;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin:1%;
+}
+.date-work{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFDDF8;
+    font-size: 1rem;
+    margin:0;
 }
 .link{
     font-family: 'Roboto Mono', monospace;
@@ -342,6 +343,7 @@ nav .menu-btn,
     margin:1%;
     font-style: italic;
     text-decoration: underline;
+    text-align: center;
 }
 .reduce-top{
     margin:-2%;
@@ -350,7 +352,7 @@ nav .menu-btn,
     font-family: 'Dosis', sans-serif;
     color: #A8789E;
     font-size: 1rem;
-    text-align: center;
+    text-align: justify;
     width: 50%;
     margin: 1%;
     /* background-color: green; */
@@ -361,6 +363,8 @@ nav .menu-btn,
     font-size: 0.8rem;
     font-style: italic;
     margin: 0;
+    text-align: justify;
+    width: 50%;
 }
 .upper{
     margin-top: -5%;

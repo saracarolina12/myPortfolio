@@ -7,6 +7,7 @@ function Work() {
             <div className='column vertical-center center upper'>
                 <img className='enterprises-images' src={ require('../images/Kindynos.png') } />
                 <p className='enterprises'>Kindynos</p>
+                <hr className='horizontal-line'/>
                 <p className='date-work'>November 2021 - February 2022</p>
                 <a target="_blank" href='https://kindynos.mx' className='link reduce-top'><p>https://kindynos.mx/</p></a>
                 <p className='job-description'>• Worked in different areas such as smart contracts development and front/back-end services.</p>
@@ -16,6 +17,7 @@ function Work() {
             <div className='column vertical-center center'>
                 <img className='enterprises-images' src={ require('../images/Vibing.png') } />
                 <p className='enterprises'>Vibing Studios</p>
+                <hr className='horizontal-line'/>
                 <p className='date-work'>March 2022 - Present</p>
                 <a target="_blank" href='https://www.linkedin.com/company/vibingstudios/about/'><p className='link'>https://www.linkedin.com/company/vibingstudios/about</p></a>
                 <p className='job-description'> • Work in back-end to sign and verify       
