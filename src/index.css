@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap'); /*Sara Gómez*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); /*Web Developer...*/
 @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap'); /*transparent tittles*/
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
 }
@@ -214,6 +218,7 @@ nav .menu-btn,
 	color:#ffffff;
 }
 .container-main{
+    margin-top: 5px;
     /* background-color: red; */
     height: 3.5vh;
     display: flex;
@@ -314,6 +319,13 @@ nav .menu-btn,
     letter-spacing: 20px;
     font-family: 'Secular One', sans-serif;
 }
+/* work */
+.date-work{
+    font-family: 'Roboto Mono', monospace;
+    color: #FFDDF8;
+    font-size: 1.2rem;
+    margin:0;
+}
 .enterprises-images{
     width: 20%;
 }
@@ -321,10 +333,41 @@ nav .menu-btn,
     font-family: 'Roboto Mono', monospace;
     color: #C498F1;
     font-size: 1.2rem;
+    margin:1%;
 }
+.link{
+    font-family: 'Roboto Mono', monospace;
+    color: #F07ED9;
+    font-size: 0.8rem;
+    margin:1%;
+    font-style: italic;
+    text-decoration: underline;
+}
+.reduce-top{
+    margin:-2%;
+}
+.job-description{
+    font-family: 'Dosis', sans-serif;
+    color: #A8789E;
+    font-size: 1rem;
+    text-align: center;
+    width: 50%;
+    margin: 1%;
+    /* background-color: green; */
+}
+.technologies{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #5F8EF8;
+    font-size: 0.8rem;
+    font-style: italic;
+    margin: 0;
+}
+.upper{
+    margin-top: -5%;
+}
+
 
 
 .debug{
     background-color: rgb(116, 1, 1);
-    
 }
