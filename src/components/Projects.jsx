@@ -8,8 +8,10 @@ function Projects() {
                 <img src={ require('../images/AboutMe.png') } />
             </div>
             <div className='name column vertical-center'>
-                <p className='title-text'>projects()</p>
-                <p className='background-text'>PROJECTS</p>
+                <div>
+                    <p className='title-text'>projects()</p>
+                    <p className='background-text'>PROJECTS</p>
+                </div>
                 <p className='mydescription'>jejeje
                 </p>
             </div>

@@ -1,17 +1,34 @@
-import React from 'react'
+import React from 'react';
+import EmailIcon from '@mui/icons-material/Email';
+import PhoneAndroidIcon from '@mui/icons-material/PhoneAndroid';
 
 function Contact() {
     return (
         <>
         <div id='main' className='row'>
-            <div className='myself column center'>
-                <img src={ require('../images/AboutMe.png') } />
+            <div className='center title-container  debug'>
+                <p className='title-center-text no-margin'>contact()</p>
+                <p className='title-background no-margin'>CONTACT</p>
             </div>
-            <div className='name column vertical-center'>
-                <p className='title-text'>contact()</p>
-                <p className='background-text'>CONTACT</p>
-                <p className='mydescription'>jojojo
-                </p>
+            <div className='square'>
+                <div className='center container-me more-margin'>
+                    <img className='image' src={ require('../images/me.jpeg') } />
+                    <div class="middle">
+                        <p className='text-me'>Hire me!:D</p>
+                    </div>
+                </div>
+                <p className='center sara-id'>Sara Carolina Gómez Delgado</p>
+                <div className='more-margin'>
+                    <div className='icon-text'>
+                        <EmailIcon style={{'marginRight':'5px', 'color': '#903d6d'}}/>
+                        <a href='mailto:saracarogode@gmail.com'><p className='center sara-mail'>saracarogode@gmail.com</p></a>
+                    </div>
+                    <div className='icon-text more-margin'>
+                        <PhoneAndroidIcon style={{'marginRight':'5px', 'color': '#903d6d'}}/>
+                        <p className='center sara-phone'>+52 474 102 0068</p>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </>
