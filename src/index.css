@@ -6,6 +6,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+body{
+   
+}
 
 body::-webkit-scrollbar {
     width: 12px;               /* width of the entire scrollbar */
@@ -121,6 +125,7 @@ nav{
     background-color: transparent;
 }
 nav.active{
+    
     background-color: #200010;
     /* top: 120%;
     opacity: 0;
@@ -388,11 +393,18 @@ nav .menu-btn,
 }
 /* contact */
 .square{
-    background-color: #b551a132;
+    transition: all .2s ease-in-out; 
+    background-color: #6e2a6032;
     /* padding: 5%; */
     height: 90%;
     width: 30%;
     vertical-align: middle;
+    box-shadow:
+        -0.2rem 0.1rem 1rem #531a3c, 0.2rem 0.1rem 1rem #4b1635,
+        0 0.5rem 3rem #730535;
+}
+.square:hover{
+    transform: scale(1.06); 
 }
 .sara-id{
     color: #AA3378;
@@ -408,6 +420,7 @@ nav .menu-btn,
 	justify-content:center;
 }
 .sara-mail{
+    transition: all .2s ease-in-out; 
     color: #903d6d;
     font-size: 1.1rem;
     text-decoration: underline;
@@ -415,6 +428,9 @@ nav .menu-btn,
     font-family: 'Ibarra Real Nova', serif;
     text-shadow: 2px 2px 5px #31091f;
     margin: 0;
+}
+.sara-mail:hover{
+    color: #75174e;
 }
 .sara-phone{
     color: #903d6d;
@@ -464,6 +480,197 @@ nav .menu-btn,
     text-shadow: 3px 3px 6px red;
 }
 
+/* start contact text  */
+.sign {
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: radial-gradient(
+        ellipse 50% 35% at 50% 50%,
+        #6b1839,
+        transparent
+    );
+    letter-spacing: 2;
+    font-family: 'Ibarra Real Nova', serif;
+    text-transform: uppercase;
+    font-size: 5em;
+    color: #ffe6f7;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #903d6d,
+        -0.2rem 0.1rem 1rem #903d6d, 0.2rem 0.1rem 1rem #903d6d,
+        0 0.5rem 3rem #9e0f4d;
+    animation: shine 2s forwards, flicker 3s infinite;
+}
+
+@keyframes blink {
+    0%,
+    22%,
+    36%,
+    75% {
+        color: #ffe6ff;
+        text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+        0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    }
+    28%,
+    33% {
+        color: #ff65bd;
+        text-shadow: none;
+    }
+    82%,
+    97% {
+        color: #ff2483;
+        text-shadow: none;
+    }
+}
+
+.flicker {
+    animation: shine 2s forwards, blink 3s 2s infinite;
+}
+
+.fast-flicker {
+    animation: shine 2s forwards, blink 10s 1s infinite;
+}
+
+@keyframes shine {
+    0% {
+        color: #6b1839;
+        text-shadow: none;
+    }
+    100% {
+        color: #ffe6ff;
+        text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+        -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+        0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    }
+}
+
+@keyframes flicker {
+    from {
+        opacity: 1;
+    }
+
+    4% {
+        opacity: 0.9;
+    }
+
+    6% {
+        opacity: 0.85;
+    }
+
+    8% {
+        opacity: 0.95;
+    }
+
+    10% {
+        opacity: 0.9;
+    }
+
+    11% {
+        opacity: 0.922;
+    }
+
+    12% {
+        opacity: 0.9;
+    }
+
+    14% {
+        opacity: 0.95;
+    }
+
+    16% {
+        opacity: 0.98;
+    }
+
+    17% {
+        opacity: 0.9;
+    }
+
+    19% {
+        opacity: 0.93;
+    }
+
+    20% {
+        opacity: 0.99;
+    }
+
+    24% {
+        opacity: 1;
+    }
+
+    26% {
+        opacity: 0.94;
+    }
+
+    28% {
+        opacity: 0.98;
+    }
+
+    37% {
+        opacity: 0.93;
+    }
+
+    38% {
+        opacity: 0.5;
+    }
+
+    39% {
+        opacity: 0.96;
+    }
+
+    42% {
+        opacity: 1;
+    }
+
+    44% {
+        opacity: 0.97;
+    }
+
+    46% {
+        opacity: 0.94;
+    }
+
+    56% {
+        opacity: 0.9;
+    }
+
+    58% {
+        opacity: 0.9;
+    }
+
+    60% {
+        opacity: 0.99;
+    }
+
+    68% {
+        opacity: 1;
+    }
+
+    70% {
+        opacity: 0.9;
+    }
+
+    72% {
+        opacity: 0.95;
+    }
+
+    93% {
+        opacity: 0.93;
+    }
+
+    95% {
+        opacity: 0.95;
+    }
+
+    97% {
+        opacity: 0.93;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+/* end contact text */
 .center-up{
     vertical-align: text-top;
 }

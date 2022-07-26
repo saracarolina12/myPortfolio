@@ -6,11 +6,15 @@ function Contact() {
     return (
         <>
         <div id='main' className='row'>
-            <div className='center title-container  debug'>
-                <p className='title-center-text no-margin'>contact()</p>
+            {/* <div className='center title-container  debug'>
+                <p className='title-center-text text-contact no-margin'>contact()</p>
                 <p className='title-background no-margin'>CONTACT</p>
+            </div> */}
+            <div class="sign vertical-center">
+                <div className=' no-margin'><span class="fast-flicker">c</span>ont<span class="flicker">a</span>ct</div>
+                <p className=' no-margin'>me</p>
             </div>
-            <div className='square'>
+            <div className='square more-margin'>
                 <div className='center container-me more-margin'>
                     <img className='image' src={ require('../images/me.jpeg') } />
                     <div class="middle">
