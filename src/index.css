@@ -440,9 +440,6 @@ nav .menu-btn,
     text-shadow: 2px 2px 5px #31091f;
     margin: 0;
 }
-.more-margin{
-    margin: 5%;
-}
 
 .container-me{
     position: relative;
@@ -671,6 +668,23 @@ nav .menu-btn,
     }
 }
 /* end contact text */
+
+/* projects */
+.title-projects{
+    font-family: 'Roboto Mono', monospace;
+    color: #f91fcd8c;
+    font-size: 1.7rem;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.project-title{
+    /* background-color: green; */
+    justify-content: flex-start;
+    width: 100%;
+}
+
+
+
 .center-up{
     vertical-align: text-top;
 }
@@ -685,4 +699,7 @@ nav .menu-btn,
 }
 .debug{
     background-color: rgb(116, 1, 1);
+}
+.more-margin{
+    margin: 5%;
 }
