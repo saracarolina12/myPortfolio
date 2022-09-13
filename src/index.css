@@ -674,16 +674,29 @@ nav .menu-btn,
     font-family: 'Roboto Mono', monospace;
     color: #f91fcd8c;
     font-size: 1.7rem;
-    text-align: center;
-    padding-bottom: 2%;
+    /* text-align: center; */
+    /* padding-bottom: 2%; */
 }
 .project-title{
     /* background-color: green; */
     justify-content: flex-start;
     width: 100%;
 }
-
-
+.right{
+    right: 80%;
+}
+.left{
+    left:80%;
+}
+.project-row{
+    /* width: 100%; */
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 2%;
+}
 
 .center-up{
     vertical-align: text-top;

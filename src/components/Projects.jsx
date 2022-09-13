@@ -8,19 +8,19 @@ function Projects() {
                 <p className='title-center-text no-margin'>work()</p>
                 <p className='title-background no-margin'>WORK</p>
             </div>
-            <div className='row'>
+            <div className='project-row debug'>
                 <div>
-                    <p className='title-projects no-margin'>UP Bus</p>
+                    <p className='right title-projects no-margin'>UP Bus</p>
                 </div>
             </div>
-            <div className='row'>
+            <div className='project-row debug'>
                 <div>
-                    <p className='title-projects no-margin'>Alumni app</p>
+                    <p className='left title-projects no-margin'>Alumni app</p>
                 </div>
             </div>
-            <div className='row'>
+            <div className='project-row debug'>
                 <div>
-                    <p className='title-projects no-margin'>Pac-woman</p>
+                    <p className='right title-projects no-margin'>Pac-woman</p>
                 </div>
             </div>
         </div>
