@@ -1,1 +1,1 @@
-<img src="PortfolioDesign.png"  width="150%"/>
+<img src="PortfolioDesign.png"  width="100%"/>
